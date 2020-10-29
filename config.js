@@ -3,7 +3,8 @@
 
 module.exports = {
   pathPrefix: "",
-  siteUrl: "https://www.fmarcosdev.com",
+  // aversiloarregla
+  siteUrl: "https://www.fmarcosdev.com/",
   siteTitle: "Freddy Huaylla",
   siteDescription: "Sitio web de un programador desconocido",
   author: "Freddy Huaylla",
