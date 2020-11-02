@@ -3,8 +3,9 @@ title: "Instalacion-React-Native-Windows 🔥"
 path: blog/Instalacion-React-Native-Windows
 tags: [reactnative]
 cover: ./KZ.jpg
-date: 2020-10-30
-excerpt: Bloguear y escribir sobre pilas de tecnología siempre ha sido lo mío. Me gusta experimentar con diferentes tecnologías y escribir mis puntos de vista sobre ellas. Las tecnologías web siempre han sido mi pasión. Consulte mi blog para ver los códigos de bits de varias tecnologías web.
+
+date: 2020-10-31
+excerpt: Tutorial ReactNative/Windows
 ---
 
 #Disclaimer

@@ -4,14 +4,16 @@ path: blog/bloggeando
 tags: [fmarcosdev]
 cover: ./KZ.jpg
 date: 2020-10-25
-excerpt: Bloguear y escribir sobre pilas de tecnología siempre ha sido lo mío. Me gusta experimentar con diferentes tecnologías y escribir mis puntos de vista sobre ellas. Las tecnologías web siempre han sido mi pasión. Consulte mi blog para ver los códigos de bits de varias tecnologías web.
+
+excerpt: Quiero bloguear y escribir sobre tecnología.
+
 ---
 
 Hola Mundo me gustaría hablar sobre mí en este blog.
 
 Me llamo Freddy Huaylla y hace unos meses sali de la univerdad basicamente usando solo PHP, materialize , mysql con xampp.
 
-pero en un principio al conocer la programacion no comprendia muchisimos conceptos que dificultaron mi posibilidad de escribir algunas lineas de codigo siquiera , afortunadamente tuve un buena enseñansa en php lo que me ayudo a comprender muchisimos conceptos que antes en Java sinceramente me confundian y ahora ya hace un año comence a inventigar tecnologias fuera de las ya mencionadas y comence con Codeigniter , Laravel , Bootstrap , Vuejs y asi hasta terminar enfocadome mas en ReactJS , ReactNative y luego pasandome a Gatsby como framework multi uso para apps simples , lo cual me ah gustaod muchisimo al permitirme crear PWA y paginas muy bien optimizadas en arquitectura de microservicios o serverless.
+pero en un principio al conocer la programacion no comprendia muchisimos conceptos que dificultaron mi posibilidad de escribir algunas lineas de codigo siquiera , afortunadamente tuve un buena enseñansa en php lo que me ayudo a comprender muchisimos conceptos que antes en Java sinceramente me confundian y ahora ya hace un año comence a inventigar tecnologias fuera de las ya mencionadas y comence con Codeigniter , Laravel , Bootstrap , Vuejs y asi hasta terminar enfocadome mas en ReactJS , ReactNative y luego pasandome a Gatsby como framework multi uso para apps simples , lo cual me ah gustaod muchisimo al permitirme crear PWA y paginas muy bien optimizadas en arquitectura de microservicios o serverless(ssr o static pages).
 
 Este blog o plataforma es basicamente creado por Rolwin que es quien diseño esta plantilla de uso libre y la cual me ahorro mucho tiempo ya que asi puedo generar mi contenido, pero pronto agregare una seccion de portafolios para mostrar mis proyectos y orgnizarme aun mas.
 
