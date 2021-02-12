@@ -21,7 +21,7 @@ export default () => {
 
     fetch(Config.contactFormUrl, { method: "POST", body: formData })
       .then(() => {
-        message.success("Gracias por contactarme 🙂. lo contactare pronto!")
+        message.success("Gracias por su mensaje 🙂. lo contactare pronto!")
         form.resetFields()
       })
       // eslint-disable-next-line no-console
@@ -37,16 +37,16 @@ export default () => {
         validateMessages={validateMessages}
       >
         <Form.Item name={["name"]} rules={[{ required: true }]}>
-          <Input size="large" placeholder="Su Nombre*" />
+          <Input size="large" placeholder=" Nombre*" />
         </Form.Item>
         <Form.Item name={["email"]} rules={[{ type: "email" }]}>
-          <Input size="large" placeholder="Su Correo" />
+          <Input size="large" placeholder=" Correo" />
         </Form.Item>
         <Form.Item name={["description"]} rules={[{ required: true }]}>
           <Input.TextArea
             size="large"
             rows={7}
-            placeholder="Describa su Idea o Consulta :) *"
+            placeholder="Describa su Idea o Consulta *"
           />
         </Form.Item>
         <Form.Item>

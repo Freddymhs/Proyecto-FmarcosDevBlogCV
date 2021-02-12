@@ -4,7 +4,6 @@ path: blog/bloggeando
 tags: [fmarcosdev]
 cover: ./KZ.jpg
 date: 2020-10-25
-
 excerpt: Quiero bloguear y escribir sobre tecnología.
 
 ---

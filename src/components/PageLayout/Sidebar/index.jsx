@@ -9,7 +9,7 @@ import { useWindowSize } from "../../../utils/hooks"
 import Config from "../../../../config"
 
 const { Content } = Layout
-const { facebook, github, instagram, twitter } = Config.social
+const { facebook, github, instagram, twitter, codepen ,youtube} = Config.social
 
 const DomContent = () => (
   <aside>
@@ -25,6 +25,14 @@ const DomContent = () => (
       </div>
       <div className="centerAlign box">
         <a
+          href={instagram}
+          target="_blank"
+          label="button"
+          rel="noopener noreferrer"
+        >
+          <FA name="instagram" />
+        </a>
+        <a
           href={facebook}
           target="_blank"
           label="button"
@@ -32,14 +40,7 @@ const DomContent = () => (
         >
           <FA name="facebook-f" />
         </a>
-        <a
-          href={twitter}
-          target="_blank"
-          label="button"
-          rel="noopener noreferrer"
-        >
-          <FA name="twitter" />
-        </a>
+
         <a
           href={github}
           target="_blank"
@@ -49,13 +50,30 @@ const DomContent = () => (
           <FA name="github" />
         </a>
         <a
-          href={instagram}
+          href={codepen}
           target="_blank"
           label="button"
           rel="noopener noreferrer"
         >
-          <FA name="instagram" />
+          <FA name="codepen" />
         </a>
+        <a
+          href={youtube}
+          target="_blank"
+          label="button"
+          rel="noopener noreferrer"
+        >
+          <FA name="youtube" />
+        </a>
+       
+        {/* <a
+          href={twitter}
+          target="_blank"
+          label="button"
+          rel="noopener noreferrer"
+        >
+          <FA name="twitter" />
+        </a> */}
       </div>
       <ul className={`box ${style.badge} contactBlock`}>
         <li className={`${style.contactBlockItem}`}>

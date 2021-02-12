@@ -10,8 +10,7 @@ const Contact = () => (
     <Layout className="container">
       <SEO
         title="Contacto"
-        description="
-        Hola Mundo  soy Freddy Huaylla y pueden contactarme con este formulario , no dude en poner ne contacto no sean timidos al hablar sobre sus ideas para una startup o para insertarse al mundo digital :)"
+        description="Hola mi nombre es Freddy Marcos Huaylla Silvestre , soy Desarrollador Web mas enfocado al Front-End y Microservicios , me apasionan las nuevas tecnologias..."
         path="/contact"
         keywords={[
           "Freddy",

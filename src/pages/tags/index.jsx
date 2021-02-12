@@ -27,8 +27,7 @@ const Tags = ({ data }) => {
         <Header />
         <SEO
           title="Tags"
-          description="This page consists of various Tags on various technologies that I'll be using
-          to write blogs. You can check the blogs related to the tags by clicking on any of the tags below."
+          description="Hola mi nombre es Freddy Marcos Huaylla Silvestre , soy Desarrollador Web mas enfocado al Front-End y Microservicios , me apasionan las nuevas tecnologias..."
           path="tags"
         />
         <SidebarWrapper>

@@ -2,10 +2,8 @@
 title: " Test unitarios con python"
 path: blog/TestUnitario-Python
 tags: [python]
-
 cover: ./KZ.jpg
 date: 2020-10-28
-
 excerpt: Algunas notas sobre python en el area del testing 
 ---
 

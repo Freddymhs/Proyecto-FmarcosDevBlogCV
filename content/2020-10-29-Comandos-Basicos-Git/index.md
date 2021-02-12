@@ -5,7 +5,7 @@ tags: [fmarcosdev]
 cover: ./KZ.png
 date: 2020-10-29
 excerpt: Comandos Basicos Git
-draw:true
+draw: true
 
 ---
 

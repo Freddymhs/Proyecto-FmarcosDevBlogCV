@@ -1,7 +1,7 @@
 ---
 title: "Redux-en-react"
 path: blog/Redux-en-react
-tags: [reactjs]
+tags: [reactjs,reactnative]
 cover: ./KZ.png
 date: 2020-12-04
 excerpt: Conocimientos basicos para usar redux con todas las plataformas que se basen en REACT

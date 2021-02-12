@@ -23,9 +23,11 @@ module.exports = {
 
   social: {
     github: "https://github.com/uNFixeD92/",
-    facebook: "https://www.facebook.com/ProyectosFmarcosDev/",
+    facebook: "https://www.facebook.com/FmarcosDev/",
     instagram: "https://www.instagram.com/fmarcosdev/",
     twitter: "https://twitter.com/FmarcosDev/",
+    codepen: "https://codepen.io/unfixed92",
+    youtube: "https://www.youtube.com/channel/UCRfSEUjO6DGbJLyGJX_8g6w?",
     rss: "/rss.xml",
   },
 
@@ -39,86 +41,128 @@ module.exports = {
     fmarcosdev: {
       name: "fmarcosdev",
       description:
-        "Este tipo de contenido muestra proyectos o temas personales 🧑‍💼",
+        "Este tipo de contenido muestra proyectos o temas personales",
       color: "#5F82BA",
     },
-    reactnative: {
-      name: "reactnative",
-      description:
-        "React Native es un marco de aplicación móvil de código abierto creado por Facebook, Inc. Se utiliza para desarrollar aplicaciones para Android, Android TV, iOS, macOS, tvOS, Web, Windows y UWP al permitir a los desarrolladores usar React junto con las capacidades de la plataforma nativa.",
-      color: "#5F82BA",
-    },
-    apirest: {
-      name: "apirest",
-      description:
-        "La transferencia de estado representacional o REST es un estilo de arquitectura software para sistemas hipermedia distribuidos como la World Wide Web",
-      color: "#5F82BA",
-    },
-    bootstrap: {
-      name: "bootstrap",
-      description:
-        "Bootstrap es una biblioteca multiplataforma o conjunto de herramientas de código abierto para diseño de sitios y aplicaciones web.",
-      color: "#5F82BA",
-    },
-    mysql: {
-      name: "mysql",
-      description:
-        "MySQL es un sistema de gestión de bases de datos relacional desarrollado bajo licencia dual: Licencia pública general/Licencia comercial por Oracle Corporation y está considerada como la base de datos.",
-      color: "#5F82BA",
-    },
-    php: {
-      name: "php",
-      description:
-        "PHP es un lenguaje de programación de uso general que se adapta especialmente al desarrollo web.​ Fue creado inicialmente por el programador danés-canadiense Rasmus Lerdorf en 1994.​ En la actualidad, la implementación de referencia de PHP es producida por The PHP Group.​",
-      color: "#5F82BA",
-    },
-    firebase: {
-      name: "firebase",
-      description:
-        "firebase es una plataforma de un conjunto de servicios , la mayoria gratuitos",
-      color: "#2870271",
+    aws: {
+      name: "Amazon Web Services",
+      description: "Amazon Web Services es una colección de servicios de computación en la nube pública que en conjunto forman una plataforma de computación en la nube, ofrecidas a través de Internet por Amazon.com.",
+      color: "#EE890F",
     },
     javascript: {
-      name: "javascript",
+      name: "Javascript es6",
       description:
         "JavaScript es un lenguaje de programación orientado a objetos que se utiliza junto con HTML y CSS para brindar funcionalidad a las páginas web.",
       color: "#f0da50",
     },
+
+
+
+    reactjs: {
+      name: "React js",
+      description:
+        "React es una biblioteca de JavaScript de código abierto que se utiliza para diseñar interfaces de usuario.",
+      color: "#48CEF7 ",
+    },
+    reactnative: {
+      name: "React Native",
+      description:
+        "React Native es un marco de aplicación móvil de código abierto creado por Facebook, Inc. Se utiliza para desarrollar aplicaciones para Android, Android TV, iOS, macOS, tvOS, Web, Windows y UWP al permitir a los desarrolladores usar React junto con las capacidades de la plataforma nativa.",
+      color: "#3DD1F7",
+    },
     nodejs: {
-      name: "Node.js",
+      name: "Node Js",
       description:
         "Node.js es una herramienta para ejecutar JavaScript en una variedad de entornos.",
       color: "#90c53f",
     },
-    reactjs: {
-      name: "reactjs",
+
+
+
+    apirest: {
+      name: "API REST/WEB",
       description:
-        "React es una biblioteca de JavaScript de código abierto que se utiliza para diseñar interfaces de usuario.",
-      color: "#61dbfa",
+        "La transferencia de estado representacional o REST es un estilo de arquitectura software para sistemas hipermedia distribuidos como la World Wide Web",
+      color: "#0F4C81",
     },
-    gatsby: {
-      name: "Gatsby.js",
+    mvc: {
+      name: "Movil View Controller",
+      description:
+        "Modelo Vista Controlador (MVC) es un estilo de arquitectura de software que separa los datos de una aplicación, la interfaz de usuario, y la lógica de control en tres componentes distintos.",
+      color: "#0F4C81",
+    },
+    freecloud: {
+      name: "Cloud Computing",
+      description:
+        "Tanto empresas, profesionales como usuarios utilizan cada vez más servicios en la nube (Cloud Computing). Este modelo basado en diferentes capas, maneja nueva terminología como IaaS, PaaS, SaaS, etc. que se prestan a ser confundidas unas con otras.",
+      color: "#87ceeb",
+    },
+
+    mysql: {
+      name: "MySQL",
+      description:
+        "MySQL es un sistema de gestión de bases de datos relacional desarrollado bajo licencia dual: Licencia pública general/Licencia comercial por Oracle Corporation y está considerada como la base de datos.",
+      color: "#185E86",
+    },
+    postgresql: {
+      name: "postgreSQL",
+      description:
+        "PostgreSQL, también llamado Postgres, es un sistema de gestión de bases de datos relacional orientado a objetos y de código abierto",
+      color: "#2E5E8C",
+    },
+    mongodb: {
+      name: "Mongodb",
+      description:
+        "MongoDB es un sistema de base de datos NoSQL, orientado a documentos y de código abierto. ",
+      color: "#569234",
+    },
+
+    flutter: {
+      name: "Flutter",
+      description:
+        "Flutter es un SDK de código fuente abierto de desarrollo de aplicaciones móviles creado por Google. Suele usarse para desarrollar interfaces de usuario para aplicaciones en Android, iOS y Web así como método primario para crear aplicaciones ",
+      color: "#35B0EE",
+    },
+    jamstack: {
+      name: "Gatsby Js/ Next Js / Electron",
       description:
         "Un marco construido sobre ReactJS para generar una aplicación web de página estática.",
       color: "#6f309f",
     },
-    html: {
-      name: "HTML",
+    firebase: {
+      name: "Google Firebase",
       description:
-        "Un lenguaje de marcado que impulsa la web. Todos los sitios web utilizan HTML para estructurar el contenido.",
-      color: "#dd3431",
+        "firebase es una plataforma de un conjunto de servicios , la mayoria gratuitos",
+      color: "#ED7E0B",
     },
+
+
+
+
+
     css: {
-      name: "css",
+      name: "CSS",
       description:
         "CSS se utiliza para diseñar el elemento HTML y dar un aspecto muy elegante a la aplicación web.",
       color: "#43ace0",
     },
     python: {
-      name: "python",
+      name: "Python ",
       description:
         "Un lenguaje de programación de propósito general que se usa ampliamente para desarrollar varias aplicaciones.",
-      color: "#f9c646",
+      color: "#FBC627",
     },
+    rubyonrails: {
+      name: "Ruby On Rails ",
+      description:
+        "Ruby on Rails, también conocido como RoR o Rails, es un framework de aplicaciones web de código abierto escrito en el lenguaje de programación Ruby, siguiendo el paradigma del patrón Modelo Vista Controlador.",
+      color: "#C32203",
+    },
+
   },
 }
+
+
+
+
+
