@@ -31,7 +31,7 @@ export default () => (
       <Header />
       <SidebarWrapper>
         <>
-          aun no creado.
+          por ahora todo en github.
           {/* <AboutMe /> */}
           {/* <Skills /> */}
         </>
