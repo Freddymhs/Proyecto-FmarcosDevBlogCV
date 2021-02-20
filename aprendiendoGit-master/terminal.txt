@@ -1,0 +1,19 @@
+Este es mi archivo de prueba para subir a github
+
+:q!     salir sin guardar
+:wq     salir y guardar
+:qa     salir
+:rm -R  remueve carpeta
+:rm     remueve archivo
+touch   crea archivo
+mkdir   crea carpeta
+
+
+
+
+ls ver
+ls -a ver todo
+mkdir
+touch
+
+

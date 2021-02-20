@@ -1,0 +1,16 @@
+
+
+en github podemos:
+
+clonar repos remotos
+vincular repos   local a remoto
+
+crear etapas de desarrollo'milestones' ej etapa 1 del modelo espiral
+crear tareas de desarrollo'issues' ej correr el crud A
+crear etiquetas de tareas 'labels' ej design,backend......
+
+
+
+seguir otros developers
+tomar sus issues  
+personalizar mi pantalla inicio
