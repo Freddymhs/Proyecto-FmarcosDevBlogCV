@@ -1,6 +1,9 @@
 // gatsby new my-gatsby-project https://github.com/rolwin100/rolwinreevan_gatsby_blog
 // https://emojipedia.org/people/
 
+
+
+
 module.exports = {
   pathPrefix: "",
   // aversiloarregla

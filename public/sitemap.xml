@@ -37,8 +37,8 @@
 <url> <loc>https://www.fmarcosdev.com/tags/python</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.fmarcosdev.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.fmarcosdev.com/resume/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.fmarcosdev.com/blog/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.fmarcosdev.com/contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://www.fmarcosdev.com/blog/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.fmarcosdev.com/portfolio/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.fmarcosdev.com/tags/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
