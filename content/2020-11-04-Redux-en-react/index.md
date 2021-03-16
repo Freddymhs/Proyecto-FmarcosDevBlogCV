@@ -7,6 +7,8 @@ date: 2020-12-04
 excerpt: Conocimientos basicos para usar redux con todas las plataformas que se basen en REACT
 ---
 
+# nuevo proyecto con template react+redux
+npx create-react-app my-app --template redux
 ### mi motivacion para usarlo
 podemos elegir a que componentes entregar un estado que almacena redux.  
 tambien ayuda a administrarnos cuando sean muchos componentes.  

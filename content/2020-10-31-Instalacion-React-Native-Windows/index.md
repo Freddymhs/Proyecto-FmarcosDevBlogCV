@@ -12,7 +12,7 @@ excerpt: Tutorial ReactNative/Windows
 [LINK de la documentacion oficial para la instalacion correcta](https://reactnative.dev/docs/environment-setup/)  
 `guia creada en 30/10/2020 , el contenido de la guia podria no estar actualizado`  
 **esta guia no usara AVD o emulador virtual de Android , recomiendo usar un dispositivo Real**  
-**esta version no es la de expo**
+**la version de EXPO estara al final**
 
 ---
 
@@ -111,6 +111,9 @@ python
   npx react-native start
   ```
   ```
+  npx react-native run-ios
+  ```
+  ```
   npx react-native run-android
   ```
 
@@ -122,3 +125,13 @@ En caso de error de licencia al ejecutarse:
                         Go to Configure>SDK Manager in your Android Studio.
                         Select SDK Tools tab and install Google Play Licensing Library
 </pre>
+
+# instalacion de expo 
+```
+npm install -g expo-cli
+```
+
+- crear nuevo proyecto expo
+```
+expo init proyectoexpo
+```
