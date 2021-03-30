@@ -1,5 +1,5 @@
 ---
-title: "Conceptos bases"
+title: "Conceptos de Express"
 path: blog/conceptos-bases-expressjs
 tags: [nodejs]
 cover: ./express.png
@@ -43,6 +43,10 @@ npm install -g generator-webapp
 yo doctor (revisamos los requerimientos esten listos)
 ```
 ```
-yo webapp
+yo webapp  (completo)
 ```
+```
+yo express (orientaod a express)
+```
+
 

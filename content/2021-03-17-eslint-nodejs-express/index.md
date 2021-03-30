@@ -20,3 +20,10 @@ npx eslint --init
 cra-eslint-prettier-airbnb
 
 
+<pre>
+rules
+</pre>
+- ``` "<js>": "always" ```
+
+
+

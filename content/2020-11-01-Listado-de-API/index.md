@@ -17,7 +17,8 @@ excerpt: Listado-de-APIListado-de-API.
 
 
 
-https://rickandmortyapi.com/?fbclid=IwAR2_GeupNhXEBhV7piFoCjjNcLBc7KVyL4YQA51UOiqFJaoKV7r2TXI9RVI
+https://rickandmortyapi.com/documentation/#rest
+
 https://any-api.com/
 https://rapidapi.com/blog/most-popular-api/?utm_source=google&utm_medium=cpc&utm_campaign=Beta_100613405446&utm_term=%2Bapi_b&gclid=CjwKCAiA7939BRBMEiwA-hX5Jz-pNqt8lnZ3-_fyeT4aKewxXxgi_AAEoroMfa1qM5RFiuamGNbJGxoCGMYQAvD_BwE#category
 https://rapidapi.com/blog/most-popular-api/?utm_source=google&utm_medium=cpc&utm_campaign=Beta_100613405446&utm_term=%2Bapi_b&gclid=CjwKCAiA7939BRBMEiwA-hX5Jz-pNqt8lnZ3-_fyeT4aKewxXxgi_AAEoroMfa1qM5RFiuamGNbJGxoCGMYQAvD_BwE#collections
