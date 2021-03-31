@@ -1,9 +1,6 @@
 // gatsby new my-gatsby-project https://github.com/rolwin100/rolwinreevan_gatsby_blog
 // https://emojipedia.org/people/
 
-
-
-
 module.exports = {
   pathPrefix: "",
   // aversiloarregla
@@ -49,17 +46,16 @@ module.exports = {
     },
     aws: {
       name: "Amazon Web Services",
-      description: "Amazon Web Services es una colección de servicios de computación en la nube pública que en conjunto forman una plataforma de computación en la nube, ofrecidas a través de Internet por Amazon.com.",
+      description:
+        "Amazon Web Services es una colección de servicios de computación en la nube pública que en conjunto forman una plataforma de computación en la nube, ofrecidas a través de Internet por Amazon.com.",
       color: "#EE890F",
     },
-    javascript: {
-      name: "Javascript es6",
-      description:
-        "JavaScript es un lenguaje de programación orientado a objetos que se utiliza junto con HTML y CSS para brindar funcionalidad a las páginas web.",
-      color: "#f0da50",
-    },
-
-
+    // javascript: {
+    //   name: "Javascript es6",
+    //   description:
+    //     "JavaScript es un lenguaje de programación orientado a objetos que se utiliza junto con HTML y CSS para brindar funcionalidad a las páginas web.",
+    //   color: "#f0da50",
+    // },
 
     reactjs: {
       name: "React js",
@@ -80,8 +76,6 @@ module.exports = {
       color: "#90c53f",
     },
 
-
-
     apirest: {
       name: "API REST/WEB",
       description:
@@ -100,32 +94,43 @@ module.exports = {
         "Tanto empresas, profesionales como usuarios utilizan cada vez más servicios en la nube (Cloud Computing). Este modelo basado en diferentes capas, maneja nueva terminología como IaaS, PaaS, SaaS, etc. que se prestan a ser confundidas unas con otras.",
       color: "#87ceeb",
     },
-
-    mysql: {
-      name: "MySQL",
+    sql: {
+      name: "SQL DB",
       description:
-        "MySQL es un sistema de gestión de bases de datos relacional desarrollado bajo licencia dual: Licencia pública general/Licencia comercial por Oracle Corporation y está considerada como la base de datos.",
+        "SQL (por sus siglas en inglés Structured Query Language; en español lenguaje de consulta estructurada) es un lenguaje de dominio específico utilizado en programación, diseñado para administrar, y recuperar información de sistemas de gestión de bases de datos relacionales.",
       color: "#185E86",
     },
-    postgresql: {
-      name: "postgreSQL",
+    nosql: {
+      name: "NOSQL DB",
       description:
-        "PostgreSQL, también llamado Postgres, es un sistema de gestión de bases de datos relacional orientado a objetos y de código abierto",
-      color: "#2E5E8C",
-    },
-    mongodb: {
-      name: "Mongodb",
-      description:
-        "MongoDB es un sistema de base de datos NoSQL, orientado a documentos y de código abierto. ",
-      color: "#569234",
+        "NoSQL (a veces llamado 'no solo SQL') es una amplia clase de sistemas de gestión de bases de datos que difieren del modelo clásico de SGBDR (Sistema de Gestión de Bases de Datos Relacionales) en aspectos importantes, siendo el más destacado que no usan SQL como lenguaje principal de consultas.",
+      color: "#185E86",
     },
 
-    flutter: {
-      name: "Flutter",
-      description:
-        "Flutter es un SDK de código fuente abierto de desarrollo de aplicaciones móviles creado por Google. Suele usarse para desarrollar interfaces de usuario para aplicaciones en Android, iOS y Web así como método primario para crear aplicaciones ",
-      color: "#35B0EE",
-    },
+    // mysql: {
+    //   name: "MySQL",
+    //   description:
+    //     "MySQL es un sistema de gestión de bases de datos relacional desarrollado bajo licencia dual: Licencia pública general/Licencia comercial por Oracle Corporation y está considerada como la base de datos.",
+    //   color: "#185E86",
+    // },
+    // postgresql: {
+    //   name: "postgreSQL",
+    //   description:
+    //     "PostgreSQL, también llamado Postgres, es un sistema de gestión de bases de datos relacional orientado a objetos y de código abierto",
+    //   color: "#2E5E8C",
+    // },
+    // mongodb: {
+    //   name: "Mongodb",
+    //   description:
+    //     "MongoDB es un sistema de base de datos NoSQL, orientado a documentos y de código abierto. ",
+    //   color: "#569234",
+    // },
+    // flutter: {
+    //   name: "Flutter",
+    //   description:
+    //     "Flutter es un SDK de código fuente abierto de desarrollo de aplicaciones móviles creado por Google. Suele usarse para desarrollar interfaces de usuario para aplicaciones en Android, iOS y Web así como método primario para crear aplicaciones ",
+    //   color: "#35B0EE",
+    // },
     jamstack: {
       name: "Gatsby Js/ Next Js / Electron",
       description:
@@ -139,33 +144,30 @@ module.exports = {
       color: "#ED7E0B",
     },
 
-
-
-
-
     css: {
       name: "CSS",
       description:
         "CSS se utiliza para diseñar el elemento HTML y dar un aspecto muy elegante a la aplicación web.",
       color: "#43ace0",
     },
-    python: {
-      name: "Python ",
+    // python: {
+    //   name: "Python ",
+    //   description:
+    //     "Un lenguaje de programación de propósito general que se usa ampliamente para desarrollar varias aplicaciones.",
+    //   color: "#FBC627",
+    // },
+    // rubyonrails: {
+    //   name: "Ruby On Rails ",
+    //   description:
+    //     "Ruby on Rails, también conocido como RoR o Rails, es un framework de aplicaciones web de código abierto escrito en el lenguaje de programación Ruby, siguiendo el paradigma del patrón Modelo Vista Controlador.",
+    //   color: "#C32203",
+    // },
+     angular: {
+      name: "Angular",
       description:
-        "Un lenguaje de programación de propósito general que se usa ampliamente para desarrollar varias aplicaciones.",
-      color: "#FBC627",
-    },
-    rubyonrails: {
-      name: "Ruby On Rails ",
-      description:
-        "Ruby on Rails, también conocido como RoR o Rails, es un framework de aplicaciones web de código abierto escrito en el lenguaje de programación Ruby, siguiendo el paradigma del patrón Modelo Vista Controlador.",
-      color: "#C32203",
+        "Angular es un framework para aplicaciones web desarrollado en TypeScript, de código abierto, mantenido por Google, que se utiliza para crear y mantener aplicaciones web de una sola página.",
+      color: "#D61F2F",
     },
 
   },
 }
-
-
-
-
-

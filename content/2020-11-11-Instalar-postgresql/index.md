@@ -1,7 +1,7 @@
 ---
 title: "Instalar-postgresql"
 path: blog/Instalar-postgresql
-tags: [postgresql]
+tags: [sql]
 cover: ./KZ.PNG
 date: 2020-11-13
 excerpt: Instalar-postgresql
@@ -29,15 +29,15 @@ excerpt: Instalar-postgresql
 <pre>
 
 \l = listar base de datos de pg  
-\c = conectar a base de datos de pg   
-\dt = listar tablas   
-select \* from users = lista todo de tabla-usuarios   
+\c = conectar a base de datos de pg  
+\dt = listar tablas  
+select \* from users = lista todo de tabla-usuarios
 
 </pre>
 
 - comandos basicos
 
-createdb "firstapi"   // crea bd  
-psql                 //conectar a bd  
-createuser -s postgres  //crea usuario   
-sudo -u postgres psql // ingresa a bd   
+createdb "firstapi" // crea bd  
+psql //conectar a bd  
+createuser -s postgres //crea usuario  
+sudo -u postgres psql // ingresa a bd

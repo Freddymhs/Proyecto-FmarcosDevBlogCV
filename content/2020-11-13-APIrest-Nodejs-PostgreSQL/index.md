@@ -1,7 +1,7 @@
 ---
 title: "APIrest-Nodejs-PostgreSQL"
 path: blog/APIrest-Nodejs-PostgreSQL
-tags: [nodejs, postgresql]
+tags: [nodejs, sql]
 cover: ./KZ.PNG
 date: 2020-11-13
 excerpt: APIrest-Nodejs-PostgreSQL
@@ -14,7 +14,6 @@ yarn add nodemon -D // script = "dev":"nodemon src/index.js"
 - crear src // ejecutara todo nuestro contenido
 - crear controllers // crear peticiones para pasarse a las rutas
 - crear routes // crear rutas
-
 
 `src necesita ejecutar el servidor`
 `routes entregaran rutas `

@@ -138,6 +138,6 @@ Query query = db.child("Leads").child("Generated").orderByChild("userid").equalT
 
 - documentacion https://firebase.google.com/docs/auth/web/password-auth
 - firebase.auth().createUserWithEmailAndPassword(email, password) //Registra
-- firebase.auth().signInWithEmailAndPassword  Ingresar
-- firebase.auth().signOut();      //salir
-- firebase.auth().currentUser.reload()     //recargar
+- firebase.auth().signInWithEmailAndPassword Ingresar
+- firebase.auth().signOut(); //salir
+- firebase.auth().currentUser.reload() //recargar

@@ -1,7 +1,7 @@
 ---
 title: "Desde Javascript a PYTHON 🔥"
 path: blog/Javascript-to-Python
-tags: [python]
+tags: [fmarcosdev]
 cover: ./KZ.jpg
 date: 2020-10-26
 

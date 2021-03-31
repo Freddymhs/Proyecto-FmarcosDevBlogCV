@@ -67,7 +67,7 @@ const SkillsProgress = () => (
           <ProgressBar percent={90} text="MySQL" />
           <ProgressBar percent={85} text="PostreSQL" />
           <ProgressBar percent={90} text="Firebase" />
-          <ProgressBar percent={75} text="MongoDB" /> 
+          <ProgressBar percent={75} text="MongoDB" />
         </Col>
         <Col xs={24}>
           <h2>Otros conocimientos</h2>

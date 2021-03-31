@@ -1,14 +1,12 @@
 ---
 title: "SQL-no-SQL"
 path: blog/SQL-no-SQL
-tags: [firebase,mongodb,postgresql,mysql]
+tags: [sql,nosql]
 cover: ./sqlNOsql.png
 date: 2021-03-22
 draw: true
 excerpt: SQL-no-SQL
-
 ---
-
 
 # SQL-no-SQL
 
@@ -50,19 +48,20 @@ niveles de Modelado en bases de datos (los mas comunes)
 - fisico(que se guardara? como se guardara? )
 </pre>
 
-
 # base de datos SQL y No Only SQL
+
 ![ejemplo de bases de datos](./sqlNOsql.png)
 
 # SQL
 
 ## conceptos para un buen Disenio
+
 - la tabla tendra muchas filas
   - cada fila podria tener
     - primary key (identificador del dato)
     - foreign key (referencia a otro dato)
 - relaciones entre tablas
-  - 1:1 
+  - 1:1
   - 1:N
   - N:M
 - ventajas
@@ -73,28 +72,33 @@ niveles de Modelado en bases de datos (los mas comunes)
   - deficiencia con [graficas,multimedia,sistema geograficos]
 
 ## Definiendo Objetivos
+
 - cual es el objetivo de la BD?
 - que acciones debe realizar la BD?
 - cantida de usuarios promedio?
 
 ## Analisis de informacion
+
 - analisar si existen algun medio de registro previo y aplicarlo los objetivos nuevos
 - obtener las entidades
 
 ## Disenio Conceptual (facil de entender)
+
 - diagramar/plasmar las entidades
 
 ## Moldeo logico (detallado)
+
 - entidades (atributos,tipo dato , relaciones)
 
 ## Disenio fisico (el esquema)
-- indices 
-- restricciones
 
+- indices
+- restricciones
 
 # NO SQL
 
 ## conceptos para un buen Disenio
+
 - orientado a la escabilidad
 - se definen como NODOS conectados a una red mas grande.
 - pensado para cintos de miles de datos
@@ -102,17 +106,18 @@ niveles de Modelado en bases de datos (los mas comunes)
 - guardan CLAVE y VALOR
 
 ## Definiendo Objetivos
+
 - cual es el objetivo de la BD?
 - que acciones debe realizar la BD?
 - cantida de usuarios promedio?
 
 ## Analisis de informacion
+
 - analisar si existen algun medio de registro previo y aplicarlo los objetivos nuevos
 - obtener las COLLECIONES de datos
 
-## Disenio  
+## Disenio
+
 - diagramar las colleciones
 - realiza conexiones entre coleciones
 - no abusar de embeber collections
-
-

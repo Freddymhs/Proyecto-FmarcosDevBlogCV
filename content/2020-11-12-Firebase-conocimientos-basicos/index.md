@@ -1,7 +1,7 @@
 ---
 title: "Firebase-conocimientos-basicos"
 path: blog/Firebase-conocimientos-basicos
-tags: [firebase,fmarcosdev]
+tags: [firebase, fmarcosdev]
 cover: ./KZ.PNG
 date: 2020-11-12
 excerpt: Firebase-conocimientos-basicos

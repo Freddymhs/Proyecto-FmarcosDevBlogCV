@@ -5,7 +5,6 @@ tags: [fmarcosdev]
 cover: ./KZ.jpg
 date: 2020-10-25
 excerpt: Quiero bloguear y escribir sobre tecnología.
-
 ---
 
 Hola Mundo me gustaría hablar sobre mí en este blog.

@@ -126,12 +126,14 @@ En caso de error de licencia al ejecutarse:
                         Select SDK Tools tab and install Google Play Licensing Library
 </pre>
 
-# instalacion de expo 
+# instalacion de expo
+
 ```
 npm install -g expo-cli
 ```
 
 - crear nuevo proyecto expo
+
 ```
 expo init proyectoexpo
 ```

@@ -4,7 +4,7 @@ path: blog/Que-es-la-API-REST
 tags: [apirest]
 cover: ./KZ.jpg
 date: 2020-12-02
-draft : true
+draft: true
 excerpt: Comprendiendo API REST EN BASICO
 ---
 

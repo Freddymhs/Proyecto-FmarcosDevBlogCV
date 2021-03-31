@@ -5,7 +5,6 @@ tags: [fmarcosdev]
 cover: ./KZ.png
 date: 2020-12-03
 excerpt: Algunos algoritmos del dia a dia al trabajar con datos y estructuras muy util
-
 ---
 
 #estructura de datos

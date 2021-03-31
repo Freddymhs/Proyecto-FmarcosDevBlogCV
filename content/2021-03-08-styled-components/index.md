@@ -6,19 +6,20 @@ cover: ./expreg.png
 date: 2021-03-08
 draw: true
 excerpt: styled-components
-
 ---
-
 
 # README
 
 ## instalacion en react
+
 ```
  npm i eslint --save-dev
 ```
+
 ```
 npm install eslint-plugin-better-styled-components --save-dev
 ```
+
 ```
 
 {

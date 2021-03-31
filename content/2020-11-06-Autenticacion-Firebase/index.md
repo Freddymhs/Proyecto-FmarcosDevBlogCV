@@ -32,4 +32,3 @@ excerpt: Autenticacion-Firebase
 
      - regresamos a la web e ingresar dentro de Authentication -> ***USERS***
         - existe un usuario registrado
-

@@ -9,7 +9,7 @@ import { useWindowSize } from "../../../utils/hooks"
 import Config from "../../../../config"
 
 const { Content } = Layout
-const { facebook, github, instagram, twitter, codepen ,youtube} = Config.social
+const { facebook, github, instagram, twitter, codepen, youtube } = Config.social
 
 const DomContent = () => (
   <aside>
@@ -65,7 +65,7 @@ const DomContent = () => (
         >
           <FA name="youtube" />
         </a>
-       
+
         {/* <a
           href={twitter}
           target="_blank"

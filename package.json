@@ -5,14 +5,11 @@
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "server": "gatsby serve",
     "build": "gatsby clean && gatsby build",
-    "buildpro": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
-    "start": "npm run develop",
-    "develop": "gatsby develop",
+    "dev": "gatsby develop -o",
+    "test": "server -> gatsby serve , clean -> gatsby clean , start -> npm run develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "buildpro": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages"
   },
   "dependencies": {
     "antd": "^4.0.1",

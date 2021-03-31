@@ -7,10 +7,7 @@ date: 2020-11-07
 excerpt: React-Native-dotEnv
 ---
 
-
-
 https://www.npmjs.com/package/react-native-dotenv
-
 
 #instalacion del package
 
