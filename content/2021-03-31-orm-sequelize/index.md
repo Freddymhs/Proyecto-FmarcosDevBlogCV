@@ -13,6 +13,7 @@ npm i sequelize  (adicionalmente puede requerir de otro modulos como [sqlite3,my
 npm install --save-dev sequelize-cli
 
 # montaje
+**esto es opcional para mi ya que uso sequlize de una forma mas simple sin usar el CLI por lo que no uso el montaje automatico 'init'**
 npx sequelize-cli init
 
 # cambio de path para el orm https://sequelize.org/master/manual/migrations.html#the-sequelizerc-file
