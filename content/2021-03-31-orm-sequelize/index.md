@@ -16,6 +16,7 @@ npm install --save-dev sequelize-cli
 npx sequelize-cli init
 
 # cambio de path para el orm https://sequelize.org/master/manual/migrations.html#the-sequelizerc-file
+**esto es opcional para mi ya que uso sequlize de una forma mas simple sin usar el CLI por lo que no uso el montaje automatico 'init'**
 <pre>mi configuracion personalizada del archivo .sequelizerc</pre>
 ```
 // .sequelizerc
@@ -23,10 +24,10 @@ npx sequelize-cli init
 const path = require('path');
 
 module.exports = {
-  'config': path.resolve('./config/', 'sequelizeconfig.js'),
-  'models-path': path.resolve('./src', 'sequelize'),
-  'migrations-path': path.resolve('./src', 'migrations'),
-  'seeders-path': path.resolve('./src/seeders'),
+  'config': path.resolve('./config/', 'sequelize-config.json'),
+  'models-path': path.resolve('./src/models/', 'modelSequelize'),
+  'seeders-path': path.resolve('./src/models/seeders'),
+  'migrations-path': path.resolve('./src/models/', 'migrations'),
 };
 ```
 
