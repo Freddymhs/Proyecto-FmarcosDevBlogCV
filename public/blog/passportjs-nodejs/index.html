@@ -52,50 +52,51 @@ a. tu ID CLIENTE: 416807314987-n43k7d1bqo7mbspglqsdqousk4vcfmhk.apps.googleuserc
 b. tu ID secreto del CLIENTE: saXjPDAmNtVWVZfIEHxq3BRd</li>
 </ol>
 </li>
-<li>
-<p>paso 3 en el proyecto
-new file authenticate.js en la raiz</p>
+<li>paso 3 en el proyecto</li>
+</ul>
+<p>new file authenticate.js en la raiz</p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">var passport = require(&#39;passport&#39;)
 var GoogleStrategy = require(&#39;passport-google-oauth20&#39;).Strategy;
-// import GoogleStrategy from &quot;passport-google-oauth20&quot;;
-// const GoogleStrategy = GoogleStrategy.Strategy; 
-// import passport from &quot;passport&quot;;</code></pre></div>
-</li>
-</ul>
-<p>/<em>serializacion de datos</em>/
-passport.serializeUser(function(user, done) {
-done(null, user);
-});</p>
-<p>passport.deserializeUser(function(user, done) {
-done(null, user);
-});
-/<em>basic configure</em>/
-passport.use(new GoogleStrategy({
-clientID: "416807314987-n43k7d1bqo7mbspglqsdqousk4vcfmhk.apps.googleusercontent.com",
-clientSecret: "saXjPDAmNtVWVZfIEHxq3BRd",
-callbackURL: "<a href="http://localhost:3000/google/callback" target="_blank" rel="nofollow">http://localhost:3000/google/callback</a>"
-},
-function(accessToken, refreshToken, profile, cb) {
-/<em>Usuario Registrados</em>/
-console.log(profile);
-cb(null,profile)</p>
-<p>  }
-));</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">en app.js importar </code></pre></div>
-<p>var passport = require('passport')// necesario</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text"></code></pre></div>
-<p>/<em>revisando passport</em>/
-app.use(passport.initialize())
-require('./authenticate');
-app.get('/google', passport.authenticate('google', { scope: ['profile', 'email'] }));
-app.get('/google/callback', passport.authenticate('google', { failureRedirect: '/login' }), (req, res) => {
-//res.redirect('/');
-res.end('Logged in!');
-})</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">probar alguna ruta 
-ir a http://localhost:3000/google :D
+//import passport from &#39;passport&#39;
+//import GoogleStrategy from &quot;passport-google-oauth20&quot;;
+//const Google = GoogleStrategy.Strategy; 
 
-#fin</code></pre></div></article><div><div id="disqus_thread"></div></div></div></section></div></div></main></section></section></section></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script>
+
+/*serializacion de datos*/
+passport.serializeUser(function(user, done) {
+  done(null, user);
+});
+
+passport.deserializeUser(function(user, done) {
+  done(null, user);
+});
+/*basic configure*/
+passport.use(new GoogleStrategy({
+    clientID: &quot;416807314987-n43k7d1bqo7mbspglqsdqousk4vcfmhk.apps.googleusercontent.com&quot;,
+    clientSecret: &quot;saXjPDAmNtVWVZfIEHxq3BRd&quot;,
+    callbackURL: &quot;http://localhost:3000/google/callback&quot;
+  },
+  function(accessToken, refreshToken, profile, cb) {
+      /*Usuario Registrados*/
+      console.log(profile);
+      cb(null,profile)
+
+  }
+));</code></pre></div>
+<p>en app.js importar </p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">var passport = require(&#39;passport&#39;)// necesario
+//import passport from &#39;passport&#39;;</code></pre></div>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">/*revisando passport*/
+app.use(passport.initialize())
+require(&#39;./authenticate&#39;);
+app.get(&#39;/google&#39;, passport.authenticate(&#39;google&#39;, { scope: [&#39;profile&#39;, &#39;email&#39;] }));
+app.get(&#39;/google/callback&#39;, passport.authenticate(&#39;google&#39;, { failureRedirect: &#39;/login&#39; }), (req, res) =&gt; {
+  //res.redirect(&#39;/&#39;);
+  res.end(&#39;Logged in!&#39;);
+})</code></pre></div>
+<p>probar alguna ruta
+ir a <a href="http://localhost:3000/google" target="_blank" rel="nofollow">http://localhost:3000/google</a> :D</p>
+<h1>fin</h1></article><div><div id="disqus_thread"></div></div></div></section></div></div></main></section></section></section></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script>
   
   
   if(true) {

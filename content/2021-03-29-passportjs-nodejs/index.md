@@ -42,13 +42,15 @@ npm i passport passport-google-oauth20
       b. tu ID secreto del CLIENTE: saXjPDAmNtVWVZfIEHxq3BRd
 
 - paso 3 en el proyecto
+
 new file authenticate.js en la raiz
 ```
 var passport = require('passport')
 var GoogleStrategy = require('passport-google-oauth20').Strategy;
-// import GoogleStrategy from "passport-google-oauth20";
-// const GoogleStrategy = GoogleStrategy.Strategy; 
-// import passport from "passport";
+//import passport from 'passport'
+//import GoogleStrategy from "passport-google-oauth20";
+//const Google = GoogleStrategy.Strategy; 
+
 
 /*serializacion de datos*/
 passport.serializeUser(function(user, done) {
@@ -72,9 +74,11 @@ passport.use(new GoogleStrategy({
   }
 ));
 ```
+
 en app.js importar 
 ```
 var passport = require('passport')// necesario
+//import passport from 'passport';
 ```
 ```
 /*revisando passport*/
