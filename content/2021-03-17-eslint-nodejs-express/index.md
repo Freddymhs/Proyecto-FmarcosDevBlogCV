@@ -17,13 +17,14 @@ npx eslint --init
 
 # eslint en react
 
-cra-eslint-prettier-airbnb
 
-<pre>
-rules
-</pre>
 
-- rules
+```
+npx create-react-app myapp --cra-eslint-prettier-airbnb // sin redux
+```
+
+- rules generales utiles depende tipo de "framework"
+
 ```
   "import/extensions": [
             "error",

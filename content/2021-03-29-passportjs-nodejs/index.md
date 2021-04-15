@@ -85,17 +85,40 @@ var passport = require('passport')// necesario
 app.use(passport.initialize())
 require('./authenticate');
 app.get('/google', passport.authenticate('google', { scope: ['profile', 'email'] }));
-app.get('/google/callback', passport.authenticate('google', { failureRedirect: '/login' }), (req, res) => {
-  //res.redirect('/');
-  res.end('Logged in!');
-})
+app.get('/google/callback',    passport.authenticate('google', {
+      successRedirect: '/welcome',
+      failureRedirect: '/failed',
+    }));
 
+
+
+
+ 
 ```
 probar alguna ruta 
 ir a http://localhost:3000/google :D
 
-#fin
+# fin
 
+# luego de login creado
+**debe ser accesible solo para los que esten logeados**
+
+
+1- crear MIDDLEWARE/proteccion check is logged or not
+```
+export function isLogged(req, res, next) { // revisa
+  req.user ? next() : res.sendStatus(401); // revisa google trae usuario
+}
+```
+
+2- usar sessions , npm i express-session
+- key , inicializa , inicializa session 
+```
+app.use(session({ secret: 'boby' })); // set my session key
+app.use(passport.initialize()); // session start
+app.use(passport.session()); // session for passport
+```
+ 
 
 
 
