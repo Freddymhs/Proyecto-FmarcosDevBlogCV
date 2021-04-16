@@ -83,24 +83,20 @@ var passport = require('passport')// necesario
 ```
 /*revisando passport*/
 app.use(passport.initialize())
-require('./authenticate');
+require('./authenticate'); // o import
 app.get('/google', passport.authenticate('google', { scope: ['profile', 'email'] }));
 app.get('/google/callback',    passport.authenticate('google', {
-      successRedirect: '/welcome',
-      failureRedirect: '/failed',
+      successRedirect: '/welcome', // es una 'vista'
+      failureRedirect: '/failed',  // es una 'vista'
     }));
 
 
-
-
- 
 ```
-probar alguna ruta 
-ir a http://localhost:3000/google :D
 
-# fin
+- probar alguna ruta 
+ir a http://localhost:3000/google y logearse para ser rerigido a la vista/ruta /welcome
 
-# luego de login creado
+# proteger rutas con un middlware
 **debe ser accesible solo para los que esten logeados**
 
 
@@ -110,7 +106,10 @@ export function isLogged(req, res, next) { // revisa
   req.user ? next() : res.sendStatus(401); // revisa google trae usuario
 }
 ```
-
+```
+app.use('/',isLogged, mivistahome);
+```
+# agregar sessiones para permitirnos ingrsar :]
 2- usar sessions , npm i express-session
 - key , inicializa , inicializa session 
 ```
@@ -118,8 +117,52 @@ app.use(session({ secret: 'boby' })); // set my session key
 app.use(passport.initialize()); // session start
 app.use(passport.session()); // session for passport
 ```
- 
+ - y podemos crear el logout
+```
+loginRouter.get('/logout', (req,res)=>{
+  req.logout();
+  req.session.destroy()
+  // req.session.destroy()
+  res.send('bye!!');
+}) 
+```
+
+si logramos autenticarnos los dato se guardarne n 
+req.session y este contendra varios objetos uno es PASSPORT , que
+es el que creamos normlamente en app.js 'app.use(passpor.session())'
+<!-- req.session.user = req.user;  -->
+ si imprimimos  req.session  en el Middleware de isLogged lo vemos.
+
+  
 
 
 
+- req.session
+```
+Session {
+  cookie: { path: '/', _expires: null, originalMaxAge: null, httpOnly: true },
+  passport: {
+    user: {
+      id: '107809872631362401677',
+      displayName: 'HylianN 92',
+      name: [Object],
+      emails: [Array],
+      photos: [Array],
+      provider: 'google',
+      _raw: '{\n' +
+        '  "sub": "107809872631362401677",\n' +
+        '  "name": "HylianN 92",\n' +
+        '  "given_name": "HylianN",\n' +
+        '  "family_name": "92",\n' +
+        '  "picture": "https://lh3.googleusercontent.com/a-/AOh14GgdK0REtqYRffIuJTZokeTnYB_UncprsTyH18Y6eA\\u003ds96-c",\n' +
+        '  "email": "hyliankz@gmail.com",\n' +
+        '  "email_verified": true,\n' +
+        '  "locale": "es-419"\n' +
+        '}',
+      _json: [Object]
+    }
+  }
+}
 
+```
+req.session.passport.user.X
