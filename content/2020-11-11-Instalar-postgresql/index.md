@@ -36,7 +36,7 @@ select \* from users = lista todo de tabla-usuarios
 </pre>
 
 - comandos basicos
-
+psql postgres // iniciar
 createdb "firstapi" // crea bd  
 psql //conectar a bd  
 createuser -s postgres //crea usuario  
