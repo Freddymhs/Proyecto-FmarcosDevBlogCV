@@ -8,32 +8,40 @@ draw: true
 excerpt: instalar-python--virtualEnv-django
 ---
 
-# Descripcion general
+# Requerimientos generales
 
-- instalar instalar python en el sistema operativo
+- instalar instalar python en el sistema operativo 
 - configura path , para que se le reconozca en el sistema.
 - instalar pip o pip3
-- instalar y crear los virtualenvs en algun directorio ademas de algun proyecto.
+- crear los virtualenvs en algun directorio ademas de algun proyecto.
 
-# guia basica
 
-python -m virtualenv CREATE_API-Django
+# crear y activar el entorno virtual para 1 proyecto
+- crear 
+    - virtualenv init --python=python3 
+- activar
+    - cd/init/bin/
+    - source activate
+- revisar que este activo
+    - pip3 freeze (muestra dependecias instaladas,debe estar vacio!)
 
-requeriminetos en el computador previos :
-Pip3 install virtualenv
+# instalacion de django
+- instalando django
+    - pip install django
+- creando proyecto
+    - cd .. 
+    - mkdir [miproyectodjango]
+- iniciar proyecto
+    - cd [miproyectodjango]
+    - django-admin startproject django_init
+    - cd django_init
+    - python manage.py runserver
+    - code . para revisar
+    - 
+# extras!
+pip3 install autopep8
+pip3 install pylint
 
-creando mi carpeta para proyectos.
-mkdir carpeta general
-cd carpeta general - > mkdir EntornosVirtuales
-cd carpeta general - > mkdir Proyectos
 
-Cd EntornosVirtuales  
-----python3 -m vent mientornonuevo  
-----source myFisrtEnvirment/bin/activate. //on
 
-Cd Proyectos  
-----pip3 install Django // queda global?  
-----Django-admin startproject Miproyecto
-
-cd Miproyecto  
-----python manage.py runserver
+pip3 freeze muestra dependecias
