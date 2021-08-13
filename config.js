@@ -56,7 +56,13 @@ module.exports = {
     //     "JavaScript es un lenguaje de programación orientado a objetos que se utiliza junto con HTML y CSS para brindar funcionalidad a las páginas web.",
     //   color: "#f0da50",
     // },
-
+    
+     nextjs: {
+      name: "Next JS",
+      description:
+        "Renderizado híbrido estático y de servidor, compatibilidad con TypeScript, agrupación inteligente, búsqueda previa de rutas y más.",
+      color: "#000000 ",
+    },
     reactjs: {
       name: "React js",
       description:
