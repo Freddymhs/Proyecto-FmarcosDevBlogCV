@@ -50,18 +50,16 @@ module.exports = {
         "Amazon Web Services es una colección de servicios de computación en la nube pública que en conjunto forman una plataforma de computación en la nube, ofrecidas a través de Internet por Amazon.com.",
       color: "#EE890F",
     },
-    // javascript: {
-    //   name: "Javascript es6",
-    //   description:
-    //     "JavaScript es un lenguaje de programación orientado a objetos que se utiliza junto con HTML y CSS para brindar funcionalidad a las páginas web.",
-    //   color: "#f0da50",
-    // },
-    
-     nextjs: {
+    git: {
+      name: "git",
+      description: "Git es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia, la confiabilidad y compatibilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente.",
+      color: "#48CEF7",
+    },
+    nextjs: {
       name: "Next JS",
       description:
         "Renderizado híbrido estático y de servidor, compatibilidad con TypeScript, agrupación inteligente, búsqueda previa de rutas y más.",
-      color: "#000000 ",
+      color: "#000000",
     },
     reactjs: {
       name: "React js",
@@ -81,7 +79,6 @@ module.exports = {
         "Node.js es una herramienta para ejecutar JavaScript en una variedad de entornos.",
       color: "#90c53f",
     },
-
     apirest: {
       name: "API REST/WEB",
       description:
@@ -112,31 +109,6 @@ module.exports = {
         "NoSQL (a veces llamado 'no solo SQL') es una amplia clase de sistemas de gestión de bases de datos que difieren del modelo clásico de SGBDR (Sistema de Gestión de Bases de Datos Relacionales) en aspectos importantes, siendo el más destacado que no usan SQL como lenguaje principal de consultas.",
       color: "#185E86",
     },
-
-    // mysql: {
-    //   name: "MySQL",
-    //   description:
-    //     "MySQL es un sistema de gestión de bases de datos relacional desarrollado bajo licencia dual: Licencia pública general/Licencia comercial por Oracle Corporation y está considerada como la base de datos.",
-    //   color: "#185E86",
-    // },
-    // postgresql: {
-    //   name: "postgreSQL",
-    //   description:
-    //     "PostgreSQL, también llamado Postgres, es un sistema de gestión de bases de datos relacional orientado a objetos y de código abierto",
-    //   color: "#2E5E8C",
-    // },
-    // mongodb: {
-    //   name: "Mongodb",
-    //   description:
-    //     "MongoDB es un sistema de base de datos NoSQL, orientado a documentos y de código abierto. ",
-    //   color: "#569234",
-    // },
-    // flutter: {
-    //   name: "Flutter",
-    //   description:
-    //     "Flutter es un SDK de código fuente abierto de desarrollo de aplicaciones móviles creado por Google. Suele usarse para desarrollar interfaces de usuario para aplicaciones en Android, iOS y Web así como método primario para crear aplicaciones ",
-    //   color: "#35B0EE",
-    // },
     jamstack: {
       name: "Gatsby Js/ Next Js / Electron",
       description:
@@ -149,31 +121,17 @@ module.exports = {
         "firebase es una plataforma de un conjunto de servicios , la mayoria gratuitos",
       color: "#ED7E0B",
     },
-
     css: {
       name: "CSS",
       description:
         "CSS se utiliza para diseñar el elemento HTML y dar un aspecto muy elegante a la aplicación web.",
       color: "#43ace0",
     },
-    // python: {
-    //   name: "Python ",
-    //   description:
-    //     "Un lenguaje de programación de propósito general que se usa ampliamente para desarrollar varias aplicaciones.",
-    //   color: "#FBC627",
-    // },
-    // rubyonrails: {
-    //   name: "Ruby On Rails ",
-    //   description:
-    //     "Ruby on Rails, también conocido como RoR o Rails, es un framework de aplicaciones web de código abierto escrito en el lenguaje de programación Ruby, siguiendo el paradigma del patrón Modelo Vista Controlador.",
-    //   color: "#C32203",
-    // },
-     angular: {
+    angular: {
       name: "Angular",
       description:
         "Angular es un framework para aplicaciones web desarrollado en TypeScript, de código abierto, mantenido por Google, que se utiliza para crear y mantener aplicaciones web de una sola página.",
       color: "#D61F2F",
     },
-
   },
 }

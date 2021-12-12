@@ -8,17 +8,21 @@ draw: true
 excerpt: ejs-nodejs
 ---
 
-
 - instala ejs
+
 ```
 npm i ejs
 ```
+
 - usa plantilla ejs
+
 ```
 app.set("view engine","ejs");
 app.set("views", __dirname + "pathhacia/views");
 ```
+
 - renderizar
+
 ```
 app.get('/',(req,res)=>{
 res.render('index',{hola:"prueba :D"})

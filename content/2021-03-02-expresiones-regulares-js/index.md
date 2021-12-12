@@ -12,20 +12,20 @@ excerpt: expresiones-regulares-js
 
 - forma1
   var expresion1 = new RegExp("abc")  
-  var expresion2 = /abc/  
-  var expresion3 = /[0123456789]/  
-  var expresion4 = /[0-9a-zA-Z]/  
-  var expresion5 = /\d\d-\d\d-\d\d\d\d/  
-  var expresion6 = /[^01]/ no tiene estos valores  
-  var expresion6 = /\d+/ se repite una vez o mas  
-  var expresion9 = /Hola mun?do/  
-  var expresion10 = /\d{1,2}-\d{1,2}-\d{4} \d{1,2}:\d{2}/  
-  var expresion11 = /hola/i  
-  var expresion12 = /Woo+(hoo+)/i  
-  var expresion13 = /\d+/.exec("desde 1980")  
-  var expresion14 = /\bffreddy\b/  
-  var expresion15 = /pollo|pescado|res|tacos|papas/  
-  var expresion16 = /^inicio final$/      
+   var expresion2 = /abc/  
+   var expresion3 = /[0123456789]/  
+   var expresion4 = /[0-9a-zA-Z]/  
+   var expresion5 = /\d\d-\d\d-\d\d\d\d/  
+   var expresion6 = /[^01]/ no tiene estos valores  
+   var expresion6 = /\d+/ se repite una vez o mas  
+   var expresion9 = /Hola mun?do/  
+   var expresion10 = /\d{1,2}-\d{1,2}-\d{4} \d{1,2}:\d{2}/  
+   var expresion11 = /hola/i  
+   var expresion12 = /Woo+(hoo+)/i  
+   var expresion13 = /\d+/.exec("desde 1980")  
+   var expresion14 = /\bffreddy\b/  
+   var expresion15 = /pollo|pescado|res|tacos|papas/  
+   var expresion16 = /^inicio final$/      
 var expresion17 = /^inicio|final$/
 
 - validando coincidencias
@@ -116,7 +116,6 @@ var expresion17 = /^inicio|final$/
       Contraseñas con al menos un número o caracter especial.
       Contraseñas con mínimo 8 caracteres.
 
-
 ```
  var isValidPass = function () {
      var pass = document.getElementById('pass');
@@ -135,7 +134,6 @@ var expresion17 = /^inicio|final$/
 
     -  Tarjetas de credito
 
-
 ```
  var isValidCreditCard = function () {
      var phone = document.getElementById('phone');
@@ -144,7 +142,6 @@ var expresion17 = /^inicio|final$/
 ```
 
     - Código postal
-
 
 ```
   var isValidPostalCode = function () {
@@ -156,7 +153,6 @@ var expresion17 = /^inicio|final$/
      - Nombres de usuario
       Mínimo 6 caracteres
       Máximo 30 caracteres
-
 
 ```
   var isValidUserName = function () {

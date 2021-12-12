@@ -18,6 +18,7 @@ brew services start mysql@5.7
 ```
 
 agregar mysql al path si no reconoce el comando
+
 ```
 export PATH="$(brew --prefix mysql@5.7)/bin:$PATH"
 ///////////export PATH="$(brew --prefix mysql)/bin:$PATH"

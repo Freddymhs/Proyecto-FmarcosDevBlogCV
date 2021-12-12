@@ -44,17 +44,15 @@ yarn server -o // crea el server y muestra
 
 ### conocimiento
 
-- interpolacion {{texto dinamico}} 
-![](./interpolacion.png)  
+- interpolacion {{texto dinamico}}
+  ![](./interpolacion.png)
 
 - property binding (bind entre algun valor en su ts y html) 'desabilitar'= true o false
-![](./propbinding.png)   
+  ![](./propbinding.png)
 
 - event binding (para escuchar un boton o para leer datos de un input)
-![](./eventbinding.png)   
-![](./eventbinding2.png)   
+  ![](./eventbinding.png)  
+  ![](./eventbinding2.png)
 
-- two way binding para enviar datos de la clase al componente o componente a la clase
-    - necesita importar un modulo 'FormModule'
-![](./tways.png)   
-
+- two way binding para enviar datos de la clase al componente o componente a la clase - necesita importar un modulo 'FormModule'
+  ![](./tways.png)

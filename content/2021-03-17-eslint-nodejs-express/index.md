@@ -17,8 +17,6 @@ npx eslint --init
 
 # eslint en react
 
-
-
 ```
 npx create-react-app myapp --cra-eslint-prettier-airbnb // sin redux
 ```

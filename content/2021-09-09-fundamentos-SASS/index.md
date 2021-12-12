@@ -12,7 +12,6 @@ excerpt: afundamentos-SASS
 #variables
 $ || --clr
 
-
 #nesting
 & = selector padre
 

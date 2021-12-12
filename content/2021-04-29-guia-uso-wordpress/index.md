@@ -10,19 +10,17 @@ excerpt: guia-uso-wordpress
 **usando wordpress**
 
 - mi entorno :
+
 ```
 php 7.4
 
 
 ```
 
-tutorial para entorno  (brew install php@7.4 --build-from-source) importante para editar php.init!
- https://jrizmal.medium.com/setting-up-a-wordpress-development-environment-on-an-m1-mac-b0f4728982ae
+tutorial para entorno (brew install php@7.4 --build-from-source) importante para editar php.init!
+https://jrizmal.medium.com/setting-up-a-wordpress-development-environment-on-an-m1-mac-b0f4728982ae
 
 - start server '/app web'
-php -S localhost:8000
+  php -S localhost:8000
 
 - stop server '/app web'
-
-
-

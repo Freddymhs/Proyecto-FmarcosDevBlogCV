@@ -7,7 +7,6 @@ date: 2021-12-12
 excerpt: usando comandos basicos
 ---
 
-
 # crear PR, sin rebase D:
 
 ingreso a github
@@ -15,15 +14,17 @@ hacer pull request
 s
 
 # pablo , crear rebase !!
+
 <!--  squash-->
-grbi , anterior hash al mio! 
+
+grbi , anterior hash al mio!
 
 ctrl+v selecionar y modifica en cantidades (dejar el primero, el resto pick replace por "s")
 :X // salir y guardar
 pantalla para asginar nombre del commit
 
-
 <!-- mi primer pero no esta rebaseado!!! -->
+
 gco master
 gl
 git branch -D development
@@ -35,10 +36,8 @@ git rebase --onto development 145ab755b698ccc7a38b15c6484f42e518fa19eb //hashDel
 <!-- solucion conflictos -->
 
 git add .
-grbc 
+grbc
 
 <!-- forzar push -->
+
 gp -f
-
-
-

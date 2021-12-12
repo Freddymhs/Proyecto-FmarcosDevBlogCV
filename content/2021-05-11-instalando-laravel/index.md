@@ -7,7 +7,8 @@ date: 2021-05-11
 excerpt: instalando-laravel
 ---
 
-# guia instalacio laravel 
+# guia instalacio laravel
+
 ### no completo aun..
 
 ```
@@ -15,8 +16,6 @@ brew install php
 ```
 
 https://www.youtube.com/watch?v=JPNRPCff4Gs&t=128s2021
-
-
 
 ```
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
@@ -26,13 +25,16 @@ php -r "unlink('composer-setup.php');"
 ```
 
 - mover el composer al lugar correcto , para que detecte comando composer
+
 ```
 sudo cp composer.phar /usr/local/bin/composer
 ```
+
 - crea proyecto laravel de prueba
-composer create-project laravel/laravel blog
+  composer create-project laravel/laravel blog
 
 - ejecutar servidor
+
 ```
 php artisan serve
 ```

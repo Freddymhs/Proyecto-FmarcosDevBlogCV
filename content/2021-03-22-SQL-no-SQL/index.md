@@ -1,7 +1,7 @@
 ---
 title: "SQL-no-SQL"
 path: blog/SQL-no-SQL
-tags: [sql,nosql]
+tags: [sql, nosql]
 cover: ./sqlNOsql.png
 date: 2021-03-22
 draw: true
