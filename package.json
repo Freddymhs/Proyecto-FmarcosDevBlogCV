@@ -1,10 +1,12 @@
 {
-  "name": "CreadoPorRowling",
+  "name": "a",
   "private": true,
   "description": "gatsby template  designed using antd",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
+    "start": "export SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+    "buildd": "export SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
     "build": "gatsby clean && gatsby build",
     "dev": "gatsby develop -o",
     "test": "server -> gatsby serve , clean -> gatsby clean , start -> npm run develop",
